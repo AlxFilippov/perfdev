@@ -15,8 +15,8 @@
 
   
   
-    <title>My Second Post &middot; Blowfish</title>
-    <meta name="title" content="My Second Post &middot; Blowfish">
+    <title>Start with Frame Timeline &middot; Blowfish</title>
+    <meta name="title" content="Start with Frame Timeline &middot; Blowfish">
   
 
   
@@ -44,16 +44,16 @@
   
   <meta property="og:url" content="//localhost:1313/posts/second-post/">
   <meta property="og:site_name" content="Blowfish">
-  <meta property="og:title" content="My Second Post">
+  <meta property="og:title" content="Start with Frame Timeline">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-01-14T07:07:07+01:00">
-    <meta property="article:modified_time" content="2024-01-14T07:07:07+01:00">
+    <meta property="article:published_time" content="2026-01-07T07:07:07+01:00">
+    <meta property="article:modified_time" content="2026-01-07T07:07:07+01:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="My Second Post">
+  <meta name="twitter:title" content="Start with Frame Timeline">
 
   
   
@@ -204,8 +204,8 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "My Second Post",
-    "headline": "My Second Post",
+    "name": "Start with Frame Timeline",
+    "headline": "Start with Frame Timeline",
     
     "inLanguage": "en",
     "url" : "//localhost:1313/posts/second-post/",
@@ -213,16 +213,16 @@
       "@type": "Person",
       "name": "Aleksandr"
     },
-    "copyrightYear": "2024",
-    "dateCreated": "2024-01-14T07:07:07\u002b01:00",
-    "datePublished": "2024-01-14T07:07:07\u002b01:00",
+    "copyrightYear": "2026",
+    "dateCreated": "2026-01-07T07:07:07\u002b01:00",
+    "datePublished": "2026-01-07T07:07:07\u002b01:00",
     
-    "dateModified": "2024-01-14T07:07:07\u002b01:00",
+    "dateModified": "2026-01-07T07:07:07\u002b01:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "15"
+    "wordCount": "302"
   }]
   </script>
 
@@ -322,24 +322,6 @@
   
     <p class="text-base font-medium">
       Posts
-    </p>
-  
-</a>
-
-
-
-      
-        
-  <a
-  href="/tags/"
-  
-  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="Tags"
-  title="Tags">
-  
-  
-    <p class="text-base font-medium">
-      Tags
     </p>
   
 </a>
@@ -464,26 +446,6 @@
 
 
             
-              
-  <li class="mt-1">
-  <a
-    href="/tags/"
-    
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="Tags"
-    title="Tags">
-    
-    
-      <p class="text-bg font-bg">
-        Tags
-      </p>
-    
-  </a>
-</li>
-
-
-
-            
 
           </ul>
           
@@ -560,7 +522,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        My Second Post
+        Start with Frame Timeline
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -612,7 +574,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-01-14T07:07:07&#43;01:00">14 January 2024</time><span class="px-2 text-primary-500">&middot;</span><span>15 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2026-01-07T07:07:07&#43;01:00">7 January 2026</time><span class="px-2 text-primary-500">&middot;</span><span>302 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -655,17 +617,136 @@
 
         <div class="article-content max-w-prose mb-20">
           
-<h2 class="relative group">Introduction
-    <div id="introduction" class="anchor"></div>
+<h1 class="relative group">Frame Timeline как входная точка в анализе производительности
+    <div id="frame-timeline-как-входная-точка-в-анализе-производительности" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#introduction" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#frame-timeline-%d0%ba%d0%b0%d0%ba-%d0%b2%d1%85%d0%be%d0%b4%d0%bd%d0%b0%d1%8f-%d1%82%d0%be%d1%87%d0%ba%d0%b0-%d0%b2-%d0%b0%d0%bd%d0%b0%d0%bb%d0%b8%d0%b7%d0%b5-%d0%bf%d1%80%d0%be%d0%b8%d0%b7%d0%b2%d0%be%d0%b4%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d1%81%d1%82%d0%b8" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<p><strong>Цель статьи : Дать общую картину влияния различных компонентов в вашем приложении на Frame Timeline(плавность ui)</strong></p>
+<blockquote ><p>Дисклеймер:
+За начальное значение возьмем, что вы уже базово знакомы с  трейсами и <code>perfetto-trace</code> в том числе в <code>Android</code>. Если вы не знакомы в конце статьи - статьи, с которыми стоит ознакомиться и потом вернуться или не вернуться - Управляйте своей жизнью сами !</p>
+</blockquote>
+<h2 class="relative group">Знакомство
+    <div id="знакомство" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d0%b7%d0%bd%d0%b0%d0%ba%d0%be%d0%bc%d1%81%d1%82%d0%b2%d0%be" aria-label="Anchor">#</a>
     </span>
     
 </h2>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io"  target="_blank">Hugo</a> website!</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="Photo"
+    width="3058"
+    height="798"
+    src="/posts/second-post/frame-timeline_hu_9cb17bc6cda4fc17.png"
+    srcset="/posts/second-post/frame-timeline_hu_9cb17bc6cda4fc17.png 800w, /posts/second-post/frame-timeline_hu_1779589f0779723e.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/second-post/frame-timeline.png"><figcaption>Frame Timeline</figcaption></figure>
+<p><code>Frame Timeline</code> это мои читатели. Мои читатели - это <code>Frame Timeline</code>, какого то абстрактного приложения с видимыми проблемами c длительностью некоторых кадров.</p>
+
+<h3 class="relative group">Кратко :
+    <div id="кратко-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d0%ba%d1%80%d0%b0%d1%82%d0%ba%d0%be-" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li><code>Expected Timeline</code> как должно быть - кадры сына маминой подруги</li>
+<li><code>Actual Timeline</code> это фреймы рассматриваемого абстрактного приложения</li>
+</ul>
+
+<h3 class="relative group">TL:DR
+    <div id="tldr" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tldr" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li>Зеленый цвет хорошо</li>
+<li>Красный цвето плохо</li>
+</ul>
+
+<h2 class="relative group">Что может повлиять на длительность серии кадров или одного?
+    <div id="что-может-повлиять-на-длительность-серии-кадров-или-одного" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d1%87%d1%82%d0%be-%d0%bc%d0%be%d0%b6%d0%b5%d1%82-%d0%bf%d0%be%d0%b2%d0%bb%d0%b8%d1%8f%d1%82%d1%8c-%d0%bd%d0%b0-%d0%b4%d0%bb%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d1%81%d1%82%d1%8c-%d1%81%d0%b5%d1%80%d0%b8%d0%b8-%d0%ba%d0%b0%d0%b4%d1%80%d0%be%d0%b2-%d0%b8%d0%bb%d0%b8-%d0%be%d0%b4%d0%bd%d0%be%d0%b3%d0%be" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Когда задаю себе это вопрос, возникает в голове мем с человеком около доски и нитками на ней (визуализируем).
+Но если серьезно приложу список классов и технологий и он далеко не полный.</p>
+
+<h3 class="relative group">Интерактив
+    <div id="интерактив" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%b2" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li>Дайте себе время и пробежитесь глазами, знаете ли вы что делает каждый класс или технология по отдельности на картинке ?</li>
+</ul>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="Classes"
+    width="1312"
+    height="622"
+    src="/posts/second-post/classes_hu_d0fbaeaeb908c992.jpg"
+    srcset="/posts/second-post/classes_hu_d0fbaeaeb908c992.jpg 800w, /posts/second-post/classes_hu_5913e1dff62508fe.jpg 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/posts/second-post/classes.jpg"><figcaption>Classes</figcaption></figure>
+
+<h3 class="relative group">Осознание
+    <div id="осознание" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d0%be%d1%81%d0%be%d0%b7%d0%bd%d0%b0%d0%bd%d0%b8%d0%b5" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<blockquote ><p>Уверен, многие знают большую часть классов и технологий и это замечательно!</p>
+</blockquote><p>Но что если я вам скажу, что ВСЕ что на картинке зачастую  используется  <strong>вместе</strong> в одном приложении, может быть даже на одном фиче экране в какой то момент времени.</p>
+<p><code>Пример :  Биг-тех и там композитный(составной) экран в который интегрированы разные фиче-команды с около одинаковым техническим стэком и разным обьемом технического долга на команду.</code></p>
+
+<h4 class="relative group">Вопросы, на которые стоит ответить
+    <div id="вопросы-на-которые-стоит-ответить" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d0%b2%d0%be%d0%bf%d1%80%d0%be%d1%81%d1%8b-%d0%bd%d0%b0-%d0%ba%d0%be%d1%82%d0%be%d1%80%d1%8b%d0%b5-%d1%81%d1%82%d0%be%d0%b8%d1%82-%d0%be%d1%82%d0%b2%d0%b5%d1%82%d0%b8%d1%82%d1%8c" aria-label="Anchor">#</a>
+    </span>
+    
+</h4>
+<ul>
+<li>Как классы и технологии работают вместе?</li>
+<li>Как они могут повлиять друг на друга?</li>
+<li>Как они могут повлиять на наше абстрактное приложение в плане утилизации ресурсов?</li>
+<li>Может кто то из них блокировать <code>UI</code> поток ?</li>
+<li>Сколько ресурсов по отдельности и вместе они потребляют ?</li>
+</ul>
 
           
           
@@ -789,21 +870,21 @@
       <div class="flex justify-between pt-3">
         <span class="flex flex-col">
           
-        </span>
-        <span class="flex flex-col items-end">
-          
             <a
-              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
               href="/posts/intro/">
               <span class="leading-6">
-                Performance or !Performance ?&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;!Performance ?
               </span>
             </a>
             
-              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
                 <time datetime="2026-01-03T07:07:07&#43;01:00">3 January 2026</time>
               </span>
             
+          
+        </span>
+        <span class="flex flex-col items-end">
           
         </span>
       </div>
