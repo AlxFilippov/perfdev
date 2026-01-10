@@ -1,7 +1,7 @@
 +++
 title = '!Performance ?'
 date = 2026-01-03T07:07:07+01:00
-draft = true
+draft = false
 summary = 'Why do we even care about performance? It’s crucial to understand: it’s not just about "polishing" search algorithms or making sorting a bit faster.'
 +++
 
